@@ -35,6 +35,63 @@ And don't forget the semicolon at the end of the line.
 console.log(exampleVariable);
 
 // WRITE YOUR CODE BELOW THIS LINE
+let title = "The Namesake";
+console.log(title);
+
+let author = "Jhumpa Lahiri";
+console.log(author);
+
+let year = 2003;
+console.log(year);
+
+let isNewerThan2000 = true;
+console.log(isNewerThan2000);
+
+let currentDate = new Date();
+let age = currentDate.getFullYear() - year;
+console.log(age);
+
+let characters = ["Ashoke", "Gogol", "Sonia", "Maxine"];
+console.log(characters);
+console.log('first item', characters[0]);
+console.log('second item', characters[1]);
+
+const favoriteBook = {
+    title: "The Namesake",
+    author: "Jhumpa Lahiri",
+    year: 2003,
+    isNewerThan2000: true,
+    age: 20,
+    characters: ["Ashoke", "Gogol", "Sonia", "Maxine"]
+};
+console.log(favoriteBook.author);
+console.log(favoriteBook.year);
+console.log(favoriteBook.characters[0]);
+
+const favoriteBooks = [
+    {
+        title: "The Namesake",
+        author: "Jhumpa Lahiri",
+        year: 2003,
+        isNewerThan2000: true,
+        age: 20,
+        characters: ["Ashoke", "Gogol", "Sonia", "Maxine"]
+    },
+    {
+        title: "Norse Mythology",
+        author: "Neil Gaiman",
+        year: 2017,
+        isNewerThan2000: true,
+        age: 6,
+        characters: ["Odin", "Thor", "Loki", "Freya"]
+    }
+];
+
+console.log(favoriteBooks[1].title);
+console.log(favoriteBooks[1]["characters"][0]);
+
+let age_difference = favoriteBooks[1].year - favoriteBooks[0].year;
+console.log(age_difference);
 
 
 // DO NOT MODIFY THE CODE BELOW THIS LINE
