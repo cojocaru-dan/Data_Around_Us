@@ -56,7 +56,7 @@ console.log(characters);
 console.log('first item', characters[0]);
 console.log('second item', characters[1]);
 
-const favoriteBook = {
+let favoriteBook = {
     title: "The Namesake",
     author: "Jhumpa Lahiri",
     year: 2003,
@@ -68,7 +68,7 @@ console.log(favoriteBook.author);
 console.log(favoriteBook.year);
 console.log(favoriteBook.characters[0]);
 
-const favoriteBooks = [
+let favoriteBooks = [
     {
         title: "The Namesake",
         author: "Jhumpa Lahiri",
